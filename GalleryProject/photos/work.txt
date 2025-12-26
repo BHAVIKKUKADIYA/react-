@@ -8,5 +8,5 @@ useState with set [] first and set array from fetch array
 
 usestate page with chane the change with the help of button in logic
 
-
+ api use ===== Sling Academy 
 //also we can do other thing better ui also a card components so and reuse so reduce and clean the code 
