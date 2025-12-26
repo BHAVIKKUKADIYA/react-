@@ -1,0 +1,12 @@
+first we downloa axios and import
+
+fetch data with axios
+
+useEffect with automatically featch data
+
+useState with set [] first and set array from fetch array
+
+usestate page with chane the change with the help of button in logic
+
+
+//also we can do other thing better ui also a card components so and reuse so reduce and clean the code 
