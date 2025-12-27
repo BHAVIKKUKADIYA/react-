@@ -1,0 +1,35 @@
+BrowserRouter
+example:
+sheryians.com = /  ( bydefault home page in use)
+sheryians.com.courses = /courses
+sheryians.com/abouts =/abputs
+
+download  karvanu   (   npm install react-router-dom      )
+import           import { BrowserRouter } from 'react-router-dom'
+use
+
+<routes>
+  <route path='right path to go' element ={name}/>
+<routes/>
+
+main.jsx ma app ne etc.. ne wrap with the browserRouter thi
+<BrowserRouter>
+      <App />
+</BrowserRouter> capital first letter otherwise give erro in console
+
+
+Exmaple
+
+import Aboutus from './pages/About.jsx'
+<Route path='/about' element={<Aboutus/>}/>
+
+ path in which through url we can display
+ element import from name   ----->   upper show Aboutus import name shoe elment in <Aboutus/> 
+
+
+notes :: use link not a tage beacuse a tag is refrence link are not refrence
+         Also Link required to import {Link} 
+
+but i dont know
+<!-- Types of routes :
+hashrouter, memoryroutes  ,staticrouter -->
