@@ -1,0 +1,76 @@
+** UI MAKE IN DARK READER ON SHOW WATCH IN DARKREADER-ON   **
+
+First of fall we have to applied same as a rounting 
+
+downlaod import wrap in main etcc......
+
+we have create a two more route inside route 
+product/man
+product/woman
+also we can write in 
+route procut inside this route
+
+  <Route path='/Product' element={<Product/>}>
+               <Route path='Man' element={<Man/>}/>
+               <Route path='Woman' element={<Woman/>}/>
+   </Route>
+   
+ Also remember in this path in man and woman only write not 
+ ' / ' writ eother wise give 
+ error for the child,parent etc... type in i dont know
+
+
+ Also when use a Link 
+                    : import {Link} from 'react-router-dom'
+ importance to impot first other wise not work  
+
+ Next is the Use of the       
+                 -----> >  > {Outlet}
+                 Also this is required ot import
+
+
+
++---------------------------------------+
+|              NAVBAR                   |  <-- Parent Component (Layout)
++---------------------------------------+
+|                                       |
+|            <Outlet />                 |  <-- The "Hole" where child
+|   (Child content appears here)        |      routes get dropped in.
+|                                       |
++---------------------------------------+
+
+Simple in child and parent in route in route match thai to te child display
+ kari dei i think 
+--- watch video latter
+
+
+path='/Course/:id
+           / : anyname
+           write display this page after wtite kuchhbhi 
+           course/kushbhi
+           coures/anything
+           ex . coures/afjklgjlakg   ---- > page that give
+
+
+* useParams *
+use for display mes. same param pass ie this
+
+import {useParams}
+useParams()
+console.log(params.id)
+{params.id} use to display url input in UI
+
+
+
+
+* useNavigate *         
+  import from  (react router Dom)
+  {useNavigate}
+  defined the navagita const navgate= useNavigate()
+  navigate('/')     ===path write here / means home page
+
+  
+const navigate =useNavigate()  
+const btnClicked = () => { 
+  navigate('/')
+}
