@@ -1,0 +1,43 @@
+wrap thsi main in app with ThemeContext
+ <div>
+       {props.children}
+ </div>
+ ==Beacuse themecontext are the parent of app after wrap in main.jsx
+
+* Context API *
+ create karo context
+ provide karo data
+ use karo data ne
+
+Step  1>
+       = import {createContext} from 'react'
+
+       = export const ThemeDataContext =createContext()  
+
+step 2>
+      
+       <ThemeDataContext.Provider>
+        {props.children}
+       </ThemeDataContext.Provider>
+
+       value provide
+       
+       <ThemeDataContext.Provider value="kuchBHI">
+        {props.children}
+       </ThemeDataContext.Provider>
+
+
+
+       useContext use 
+            import {useContext} from 'react'
+            import {ThemeDataContext} from '../context/ThemeContext'
+            function Nav2(props) {
+            const data = useContext(ThemeDataContext)
+             console.log(data)
+
+
+
+   we can pass the theme and settheme  and chaneg the with he button
+   const [theme, setTheme] = useContext(ThemeDataContext)
+   
+   we can change the theme with button click

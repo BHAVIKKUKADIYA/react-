@@ -1,0 +1,32 @@
+.navbar{
+    display:flex;
+    background-color:lightcyan;
+    padding:10px 40px;
+    align-items:space-between;
+    justify-content:space-between;
+}
+.nav2{
+    display:flex;
+    gap:30px
+}
+.btn{
+    height:10px;
+    background-color:lightcyan;
+    padding:10px 40px;
+ 
+}
+.light {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.dark {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
