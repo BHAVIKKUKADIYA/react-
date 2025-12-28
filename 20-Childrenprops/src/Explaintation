@@ -1,0 +1,36 @@
+here we do a props drilling
+
+theme and setTheme in app.jsx padd in navabar 
+theme={theme} 
+
+also navbar in nav2 use
+also use navabar in props.theme and props.setTheme
+this is pass in nav2 in theme={props.theme} setTheme={props.setTheme}
+** This is childern in props drilling is complex and difficult so we have to use a context api
+
+next create the context folder inside ThemeContext.jsx 
+with wrap app in main.jsx import and wrap 
+  <ThemeContext>
+    <App />
+  </ThemeContext>,
+  here are the this is a parent of the app 
+
+
+
+
+  Navbar theme={theme}>
+      <h2>THis is  navbar</h2>
+      <h2>THis is  afshasdj</h2>
+     </Navbar>
+     child pn show like console in object
+     more than one show in araray
+     ex.. (2) [{…}, {…}]
+
+
+props in jagya ae children use kaariye to ditrect use kari sakiye
+exx.. function Navbar({children,theme})
+here pass childeren and theme so we have directly use the this
+           {children}
+            <Nav2 theme={theme}/>
+not reuired props.____ pass reuired dirctly use
+this how childeren usefull

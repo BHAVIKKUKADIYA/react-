@@ -1,0 +1,11 @@
+.navbar{
+    display:flex;
+    background-color:lightcyan;
+    padding:10px 40px;
+    align-items:space-between;
+    justify-content:space-between;
+}
+.nav2{
+    display:flex;
+    gap:30px
+}
